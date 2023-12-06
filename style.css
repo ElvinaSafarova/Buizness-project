@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.all-header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 3%;
+}
+.pexman {
+    color: white;
+    font-size: 26px;
+}
+.creative-agency {
+    font-weight: 700;
+    font-size: 11px;
+    color: #d9bf77;
+}
+.header-right-part {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    color:gray;
+}
+.foto-menu {
+    width: 20%;
+    color: gray;
+}
+.preview {
+    background-image: url(./preview.webp);
+    background-size: cover;
+    padding: 5%;
+    background-size: cover; /* Растягивать изображение на всю площадь контейнера */
+    background-position: center; /* Разместить изображение по центру контейнера */
+    height: 100vh; /* Установить высоту контейнера равной высоте видимой области окна браузера */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.build {
+    width: 80%;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.small-river {
+    width: 80%;
+    color: gray;
+    margin-bottom: 2rem;
+}
+.view-portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    width: 55%;
+    height: 10%;
+    background-color: #d9bf77;
+    margin-bottom: 3rem;
+}
+.foto-right-arrow {
+    width: 5%;
+}
