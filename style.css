@@ -136,6 +136,7 @@ header {
 .achievements {
     display: flex;
     flex-direction: column;
+    align-items: center;
     color: aliceblue;
 }
 span {
@@ -174,6 +175,7 @@ span {
     justify-content: center;
     align-items: center;
     width: 60px;
+    min-width: 60px;
     height: 60px;
     background-color: black;
     border: 1px solid black;
