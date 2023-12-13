@@ -183,7 +183,6 @@ header {
     align-items: center;
     color: aliceblue;
 }
-
 span {
     color: #d9bf77;
 }
@@ -221,6 +220,7 @@ img {
 
 .research-h3 {
     margin-bottom: 5px;
+    color: #000000CC;
 }
 
 .circle-p {
@@ -299,6 +299,7 @@ img {
 }
 .eighth-right {
     display: flex;
+    margin-bottom: 10px;
 }
 .first-list {
     font-weight: 700;
@@ -309,3 +310,49 @@ img {
     color: #999999;
     padding-left: 50px;
 }
+.tenth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.testimonial {
+    color: #d9bf77;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.otziv-foto {
+    width: 80px;
+    border-radius: 50%;
+    margin: 20px 0 10px;
+}
+.what-are-clients-says {
+    color: #000000;
+    opacity: 0.8;
+}
+.stars-icons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 16px;
+}
+.foto-star {
+    width: 15px;
+}
+.tenth-p {
+   text-align: center;
+   padding-inline: 15px;
+   font-weight: 600;
+   margin-bottom: 24px;
+}
+.roger {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.cheif {
+    font-weight: 500;
+}
+/* .eleventh-p {
+    color: #d9bf77;
+  
+} */
