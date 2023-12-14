@@ -220,7 +220,8 @@ img {
 
 .research-h3 {
     margin-bottom: 5px;
-    color: #000000CC;
+    color: #000000;
+    opacity: 0.8;
 }
 
 .circle-p {
@@ -259,6 +260,7 @@ img {
 
 .seventh-child p {
     color: #999999;
+    line-height: 30px;
 }
 
 .seventh-child-h3,
@@ -303,7 +305,6 @@ img {
 }
 .first-list {
     font-weight: 700;
-    /* text-transform: uppercase; */
     display: inline-block;
     margin-right: 6px;
     font-size: 13px;
@@ -352,7 +353,119 @@ img {
 .cheif {
     font-weight: 500;
 }
-/* .eleventh-p {
+.eleventh {
+    background-color: rgba(80, 77, 77, 0.09);
+}
+.eleventh-p {
     color: #d9bf77;
-  
-} */
+    font-weight: 600;
+    text-align: center;
+    padding-top: 26px;
+}
+.eleventh-h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #000000;
+    opacity: 0.8;
+    padding-top: 10px;
+    margin-bottom: 35px;
+}
+.eleventh-child-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100vw;
+    padding-inline: 15px;
+}
+.eleventh-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 15px;
+    margin-bottom: 20px;
+    /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); */
+}
+.eleventh-child-top-foto {
+    padding-inline: 15px;
+    margin-bottom: 15px;
+}
+.eleventh-date{
+    display: flex;
+    justify-content: flex-start;
+}
+.date {
+    color: #999999;
+}
+
+.eleventh-child-bottom-foto {
+    width: 20px;
+}
+.eleventh-child-bottom-p {
+    color: #999999;
+    line-height: 25px;
+}
+footer {
+    background-color: #000000;
+}
+.all-footer {
+    padding: 25px 30px 25px 15px;
+}
+.footer-pexman-h2{
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.footer-pexman-p {
+    color: #999999;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.connnect-us-h2 {
+    color: aliceblue;
+    margin-bottom: 18px;
+}
+.connnect-us {
+    display: flex;
+    flex-direction: column;
+}
+.social-media-fotos {
+    display: flex;
+}
+.social-media {
+    width: 35px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+}
+.navigation-h2 {
+    color: aliceblue;
+}
+.navigation-left-p {
+    color: rgba(255, 255, 255, 0.3);
+    margin: 12px 0;
+    font-weight: 700;
+}
+.navigation-right-p {
+    color: rgba(255, 255, 255, 0.3);
+    margin: 12px 0;
+    font-weight: 700;
+}
+.have-a-question-h2 {
+    color: aliceblue;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.icon-with-info {
+    width: 100vw;
+}
+.icon-with-info {
+    display: flex;
+    margin-bottom: 15px;
+}
+.icon-with-info-icon {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.icon-with-info-p {
+    color: #999999;
+    font-weight: 700;
+}
