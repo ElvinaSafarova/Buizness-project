@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    width: 100vw;
 }
 
 header {
@@ -59,6 +60,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    padding-top: 40px;
 }
 
 .ten {
@@ -81,6 +83,7 @@ header {
     width: 80%;
     color: gray;
     margin-bottom: 2rem;
+    line-height: 25px;
 }
 
 .view-portfolio {
@@ -157,7 +160,6 @@ header {
     position: relative;
     z-index: 0;
 }
-
 .overlay {
     position: absolute;
     top: 0;
@@ -173,10 +175,9 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     height: 100%;
 }
-
 .achievements {
     display: flex;
     flex-direction: column;
@@ -192,9 +193,7 @@ span {
     flex-direction: column;
 }
 
-.fifth,
-.fifth,
-img {
+.fifth, .triangle-foto {
     width: 100vw;
 }
 
@@ -258,16 +257,19 @@ img {
     align-items: center;
 }
 
-.seventh-child p {
+.seventh-child-p {
     color: #999999;
     line-height: 30px;
+    text-align: center;
 }
 
 .seventh-child-h3,
 .seventh-child-p {
     margin: 15px 0 0 0;
 }
-
+.seventh-child-h2 {
+    margin: 15px 0 0;
+}
 .seventh-foto {
     width: 60px;
     height: 60px;
@@ -297,11 +299,14 @@ img {
     margin: 6px 0;
 }
 .eighth-left-h2 {
-    margin: 6px 0;
+    margin: 10px 0;
 }
 .eighth-right {
     display: flex;
     margin-bottom: 10px;
+}
+.ninth-foto {
+    width: 100%;
 }
 .first-list {
     font-weight: 700;
@@ -386,9 +391,11 @@ img {
     /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); */
 }
 .eleventh-child-top-foto {
+    width: 100%;
     padding-inline: 15px;
     margin-bottom: 15px;
 }
+
 .eleventh-date{
     display: flex;
     justify-content: flex-start;
@@ -468,4 +475,58 @@ footer {
 .icon-with-info-p {
     color: #999999;
     font-weight: 700;
+}
+@media (min-width: 900px) {
+    .preview {
+        padding-top: 80px;
+    }
+    .second-third {
+        flex-direction: row-reverse;
+    }
+    .manwithnout {
+        width: 50vw;
+        height: 100vh;
+    }
+    .third {
+        width: 50vw;
+    }
+    .all-achievements-top {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .all-achievements {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .fifth-sixth {
+        flex-direction: row;
+    }
+    .triangle-foto {
+        width: 50vw;
+    }
+    .sixth {
+        width: 50vw;
+    }
+    .seventh {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .seventh-child {
+        margin-right: 20px;
+    }
+    .seventh-child-p {
+        text-align: center;
+    }
+    .eighth {
+        flex-direction: row;
+    }
+    .ninth {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .ninth-foto {
+        width: 24%;
+        height: 20%;
+    }
 }
