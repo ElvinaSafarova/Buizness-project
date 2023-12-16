@@ -545,6 +545,8 @@ footer {
     .eighth {
         flex-direction: row;
         justify-content: space-between;
+        padding: 60px 60px 0;
+        margin-bottom: 30px;
     }
     .ninth {
         flex-direction: row;
@@ -558,5 +560,11 @@ footer {
         padding-top: 30px;
         line-height: 30px;
      } 
-    
+     .tenth {
+        margin: 90px 0;
+     }
+     .tenth-p {
+        width: 50%;
+     }
+
 }
