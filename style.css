@@ -188,7 +188,7 @@ header {
     height: 100%;
 }
 .achievements {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,11 +202,12 @@ span {
     display: flex;
     flex-direction: column;
 }
-
-.fifth, .triangle-foto {
+.fifth {
     width: 100vw;
 }
-
+.triangle-foto {
+    width: 100%;
+}
 .sixth,
 .what-we-offer-bottom {
     display: flex;
@@ -248,7 +249,10 @@ span {
     border: 1px solid black;
     border-radius: 60%;
 }
-
+.error {
+    display: flex;
+    flex-direction: column;
+}
 .seventh {
     width: 100vw;
     display: flex;
@@ -505,17 +509,21 @@ footer {
         margin-bottom: 20px;
         line-height: 30px;
     }
-    .all-achievements-top {
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
+    .fourth {
+        height: 35vh;
     }
     .all-achievements {
-        flex-direction: column;
-        /* justify-content: space-around; */
+        flex-direction: row;
+        justify-content: space-around;
     }
     .fifth-sixth {
         flex-direction: row;
+    }
+    .fifth {
+        width: 50vw;
+    }
+    .sixth {
+        padding: 30px 0 0 45px;
     }
     .triangle-foto {
         width: 50vw;
@@ -536,6 +544,7 @@ footer {
     }
     .eighth {
         flex-direction: row;
+        justify-content: space-between;
     }
     .ninth {
         flex-direction: row;
@@ -545,10 +554,9 @@ footer {
         width: 24%;
         height: 20%;
     }
-    ul {
-        padding: 30px 0 0 70px;
+     ul {
+        padding-top: 30px;
         line-height: 30px;
-        text-align: start;
-    }
+     } 
     
 }
