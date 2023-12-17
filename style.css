@@ -52,18 +52,14 @@ header {
 .preview {
     background-image: url(./preview.webp);
     background-size: cover;
-    background-position: center;
-    /* Разместить изображение по центру контейнера */
-    height: 100vh;
-    /* Установить высоту контейнера равной высоте видимой области окна браузера */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding-top: 40px;
+    background-position: center;  /* Разместить изображение по центру контейнера */
+    height: 100vh; /* Установить высоту контейнера равной высоте видимой области окна браузера */
 }
 
 .ten {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #00000051;
     width: 100%;
     height: 100%;
@@ -319,8 +315,77 @@ span {
     display: flex;
     margin-bottom: 10px;
 }
-.ninth-foto {
+.ninth{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 15px;
+    
+}
+.ninth-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.708);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 0;
+}
+.ninth-div h3{
+    color: #ffffff;
+    display: none;
+}
+.ninth-div p{
+    color: #999999;
+    display: none;
+}
+.ninth-div:hover h3, .ninth-div:hover p{
+    display: block;
+}
+.ninth-div:hover .ninth-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: black;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ninth-div:first-child {
+    background-image: url(./work-1.webp);
+}
+.ninth-div:nth-child(2) {
+    background-image: url(./work-2.webp);
+}
+.ninth-div:nth-child(3) {
+    background-image: url(./work-3.webp);
+}
+.ninth-div:nth-child(4) {
+    background-image: url(./work-4.webp);
+}
+.ninth-div:nth-child(5) {
+    background-image: url(./work-5.webp);
+}
+.ninth-div:nth-child(6) {
+    background-image: url(./work-6.webp);
+}
+.ninth-div:nth-child(7) {
+    background-image: url(./work-7.webp);
+}
+.ninth-div:nth-child(8) {
+    background-image: url(./work-8.webp);
 }
 .first-list {
     font-weight: 700;
@@ -373,7 +438,7 @@ span {
     font-weight: 500;
 }
 .eleventh {
-    background-color: rgba(80, 77, 77, 0.09);
+    background-color: #f7f7f7;
 }
 .eleventh-p {
     color: #d9bf77;
@@ -402,7 +467,6 @@ span {
     align-items: center;
     padding-inline: 15px;
     margin-bottom: 20px;
-    /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); */
 }
 .eleventh-child-top-foto {
     width: 100%;
@@ -429,6 +493,8 @@ footer {
     background-color: #000000;
 }
 .all-footer {
+    display: flex;
+    flex-direction: column;
     padding: 25px 30px 25px 15px;
 }
 .footer-pexman-h2{
@@ -475,11 +541,9 @@ footer {
     margin-bottom: 20px;
 }
 .icon-with-info {
-    width: 100vw;
-}
-.icon-with-info {
     display: flex;
     margin-bottom: 15px;
+    width: 100%;
 }
 .icon-with-info-icon {
     width: 30px;
@@ -491,8 +555,11 @@ footer {
     font-weight: 700;
 }
 @media (min-width: 900px) {
-    .preview {
-        padding-top: 80px;
+    .ten {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .second-third {
         flex-direction: row-reverse;
@@ -502,8 +569,9 @@ footer {
         height: 100vh;
     }
     .third {
+        justify-content: center;
         width: 50vw;
-        padding-inline: 25px;
+        padding: 30px 0 0 20px ;
     }
     .welcome-h2,.far {
         margin-bottom: 20px;
@@ -550,11 +618,11 @@ footer {
     }
     .ninth {
         flex-direction: row;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
-    .ninth-foto {
-        width: 24%;
-        height: 20%;
+    .ninth-div {
+        width: 22%;
     }
      ul {
         padding-top: 30px;
@@ -566,5 +634,55 @@ footer {
      .tenth-p {
         width: 50%;
      }
-
+     .eleventh {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        padding: 50px 15px;
+     }
+    .eleventh-for-desctop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .eleventh-bottom {
+        display: flex;
+        justify-content: space-between;
+    }
+    .eleventh-child-top {
+        width: 20vw;
+        height: 254px;
+    }
+    .eleventh-child-top-foto {
+        margin: 0; 
+        padding: 0;
+        width: 100%;
+        height: 100%; 
+    }
+    .eleventh-child-bottom {
+        width:20vw;
+        background-color: #ffffff;
+        padding: 20px 10px 40px;
+    }
+    .eleventh-child-bottom-h4 {
+        margin: 10px 0;
+    }
+    .all-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 50px 60px;
+    }
+    .pexman-connect {
+        width: 25%;
+    }
+    .all-navigation {
+        width: 25%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navigation-right {
+        padding-top: 30px;
+    }
 }
