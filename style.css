@@ -15,6 +15,9 @@ header {
     position: fixed;
     z-index: 2;
 }
+.header-ul {
+    display: none;
+}
 
 .all-header {
     width: 100vw;
@@ -555,6 +558,25 @@ footer {
     font-weight: 700;
 }
 @media (min-width: 900px) {
+    /* .all-header {
+        background-color: transparent;
+    } */
+    .menu,.foto-menu {
+        display: none;
+    }
+    .header-ul {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        color: rgba(128, 128, 128, 0.5);
+        list-style-type: none;
+    }
+    .header-li {
+        margin-inline: 10px;
+    } 
+    .header-li:hover {
+        color: aliceblue;
+    } 
     .ten {
         width: 50%;
         display: flex;
