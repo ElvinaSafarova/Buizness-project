@@ -112,6 +112,9 @@ header {
 .manwithnout {
     width: 100vw;
 }
+.manwithnout-foto {
+    width: 100%;
+}
 
 .third {
     display: flex;
@@ -396,7 +399,7 @@ span {
     margin-right: 6px;
     font-size: 13px;
     color: #999999;
-    padding-left: 50px;
+    padding-left: 5px;
 }
 .tenth {
     display: flex;
@@ -473,7 +476,6 @@ span {
 }
 .eleventh-child-top-foto {
     width: 100%;
-    padding-inline: 15px;
     margin-bottom: 15px;
 }
 
@@ -588,7 +590,10 @@ footer {
     }
     .manwithnout {
         width: 50vw;
-        height: 100vh;
+    }
+    .manwithnout-foto{
+        width: 100%;
+        height: 100%;
     }
     .third {
         justify-content: center;
@@ -637,6 +642,10 @@ footer {
         justify-content: space-between;
         padding: 60px 60px 0;
         margin-bottom: 30px;
+    }
+    .eighth-right-ul {
+        display: flex;
+        justify-content: flex-end;
     }
     .ninth {
         flex-direction: row;
